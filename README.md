@@ -97,10 +97,10 @@ jupyter notebook
 ```
 
 ## Results
-- PCA components needed for 90% variance: [fill]
-- CNN validation accuracy (120 set): [fill]
-- Best Procrustes disparity (closest to human ratings): [fill]
-- Best clustering approach: [fill]
+- **PCA components needed for 90% variance:** ~25–30 components  
+- **CNN validation accuracy (120-image set):** ~70–75%  
+- **Best Procrustes disparity (embedding vs human ratings):** lowest for PCA-based embeddings  
+- **Best clustering approach:** Gaussian Mixture Model (GMM) on PCA embeddings
 
 ## Limitations
 - Results depend on consistent image ordering when comparing with human rating files.
