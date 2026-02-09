@@ -1,0 +1,14 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# If you don't want to commit images (recommended if large)
+data/360_rocks/
+data/120_rocks/
+
+# Model artifacts
+*.h5
+*.keras
+*.ckpt
